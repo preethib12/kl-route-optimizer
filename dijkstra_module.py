@@ -16,7 +16,9 @@ def build_graph():
         ('Bukit Bintang', 'Exchange 106 @ TRX', 5),
         ('Bukit Bintang', 'Merdeka Square', 3),
         ('Exchange 106 @ TRX', 'Tabung Haji Tower', 20),
-        ('KL Tower', 'Tabung Haji Tower', 30)
+        ('KL Tower', 'Tabung Haji Tower', 30),
+        ('Bukit Bintang', 'Pavilion Mall', 2),
+        ('Pavilion Mall', 'KL Tower', 12)
     ]
     G.add_weighted_edges_from(edges)
     return G
