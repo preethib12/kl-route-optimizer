@@ -68,6 +68,7 @@ with tabs[1]:
                     "Merdeka Square": (4.5, 1.5),
                     "KL Tower": (5.5, 1.5),
                     "Tabung Haji Tower": (5.5, -0.5),
+                    "Pavilion Mall": (4.2, 0.8)
                 }
 
                 fig, ax = plt.subplots(figsize=(10, 8))
